@@ -1,4 +1,4 @@
-# Watch and Code
+# To-do list web app
 To-do app created following course material from Watch and Code 
 
 ## v1 Requirements:
