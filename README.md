@@ -22,6 +22,9 @@ To-do app created following course material from Watch and Code
 * It should have a deleteTodo method
 
 ## v4 Requirements:
+* todoList.addTodo should add objects
+* todoList.changeTodo should change the todoText property
+* todoList.toggleCompleted should change the completed property
 
 ## v5 Requirements:
 
