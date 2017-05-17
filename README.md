@@ -9,6 +9,10 @@ To-do app created following course material from Watch and Code
 * It should have a way to delete a todo 
 
 ## v2 Requirements:
+* It should have a function to display todos
+* It should have a function to add todos
+* It should have a function to change todos
+* It should have a function to delete todos
 
 ## v3 Requirements:
 
