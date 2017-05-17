@@ -15,6 +15,11 @@ To-do app created following course material from Watch and Code
 * It should have a function to delete todos
 
 ## v3 Requirements:
+* It should store the todos array on an object
+* It should have a display Todos method
+* It should have an addTodo method
+* It should have a changeTodo method
+* It should have a deleteTodo method
 
 ## v4 Requirements:
 
