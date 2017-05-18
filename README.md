@@ -36,6 +36,9 @@ To-do app created following course material from Watch and Code
 * .toggleAll: Otherwise, make everything true
 
 ## v7 Requirements:
+* There should be a 'Display todos' button and a 'Toggle all' button in the app
+* Clicking 'Display todos' should run todoList.displayTodos
+* Clicking 'Toggle all' should run todoList.toggleAll
 
 ## v8 Requirements:
 
