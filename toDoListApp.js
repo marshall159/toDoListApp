@@ -30,27 +30,3 @@ var todoList = {
 	}
 };
 
-
-
-// It should have a function to display todos
-function displayTodos() {
-	console.log('My Todos: ', todos);
-}
-
-// It should have a function to add todos
-function addTodo(task) {
-	todos.push(task);
-	displayTodos();
-}
-
-// It should have a function to change todos
-function changeTodo(position, newValue) {
-	todos[position] = newValue;
-	displayTodos();
-}
-
-// It should have a function to delete todos
-function deleteTodo(position) {
-	todos.splice(position, 1);
-	displayTodos();
-}
