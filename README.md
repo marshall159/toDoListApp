@@ -27,6 +27,9 @@ To-do app created following course material from Watch and Code
 * todoList.toggleCompleted should change the completed property
 
 ## v5 Requirements:
+* .displayTodos should show .todoText
+* .displayTodos should tell you if .todos is empty
+* .displayTodos should show .completed
 
 ## v6 Requirements:
 
