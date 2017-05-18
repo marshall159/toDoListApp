@@ -32,6 +32,8 @@ To-do app created following course material from Watch and Code
 * .displayTodos should show .completed
 
 ## v6 Requirements:
+* .toggleAll: If everything is true, make everything false
+* .toggleAll: Otherwise, make everything true
 
 ## v7 Requirements:
 
