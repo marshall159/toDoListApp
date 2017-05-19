@@ -47,6 +47,9 @@ To-do app created following course material from Watch and Code
 * It should have working controls for .toggleCompleted
 
 ## v9 Requirements:
+* There should be an li element for every todo
+* Each li element should contain .todoText
+* Each li element should show .completed
 
 ## v10 Requirements:
 
