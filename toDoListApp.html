@@ -6,8 +6,35 @@
 </head>
 <body>
 	<h1>Todo List</h1>
-	<button id="displayTodosButton">Display Todos</button>
-	<button id="toggleAllButton">Toggle All</button>
+	<div>
+		<button onclick="handlers.displayTodos()">Display Todos</button>
+		<button onclick="handlers.toggleAll()">Toggle All</button>
+	</div>
+
+	<div>
+		<input type="text" name="addTodo" id="addTodoTextInput">
+		<button onclick="handlers.addTodo()">Add</button>
+	</div>
+
+
+	<div>
+		<input type="number" id="changeTodoPositionInput">
+		<input type="text" id="changeTodoTextInput">
+		<button onclick="handlers.changeTodo()">Change Todo</button>
+	</div>
+
+	<div>
+		<input type="number" id="deleteTodoPositionInput">
+		<button onclick="handlers.deleteTodo()">Delete</button>
+	</div>
+
+	<div>
+		<input type="number" id="toggleCompletedPositionInput">
+		<button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+	</div>
+	
+	
+	
 
 
 <script src="toDoListApp.js"></script>
