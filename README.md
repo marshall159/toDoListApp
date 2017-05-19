@@ -41,6 +41,10 @@ To-do app created following course material from Watch and Code
 * Clicking 'Toggle all' should run todoList.toggleAll
 
 ## v8 Requirements:
+* It should have working controls for .addTodo
+* It should have working controls for .changeTodo
+* It should have working controls for .deleteTodo
+* It should have working controls for .toggleCompleted
 
 ## v9 Requirements:
 
