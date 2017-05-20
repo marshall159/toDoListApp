@@ -131,3 +131,31 @@ var handlers = {
 		todoList.toggleAll();
 	}
 };
+
+//There should be an li element for every todo
+//Each li element should contain .todoText
+//Each li element should show .completed
+
+
+var view = {
+	displayTodos: function() {
+
+		var todosUl = document.querySelector('ul');
+		todosUl.innerHTML = '';
+
+		for (var i = 0; i < todoList.todos.length; i++) {
+			var todoLi = document.createElement('li');
+			todosUl.appendChild(todoLi);
+		}
+		
+
+		// var todoText = todoList.todos[todoList.todos.length - 1].todoText;
+		// todoText += todoList.todos[todoList.todos.length - 1].completed;
+		// var newLiText = document.createTextNode(todoText);
+		// newLi.appendChild(newLiText);	
+	}
+};
+
+	
+
+
