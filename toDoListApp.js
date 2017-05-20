@@ -145,14 +145,19 @@ var view = {
 
 		for (var i = 0; i < todoList.todos.length; i++) {
 			var todoLi = document.createElement('li');
-			todosUl.appendChild(todoLi);
-		}
-		
+			var todo = todoList.todos[i];
+			var todoTextWithCompletion = '';
 
-		// var todoText = todoList.todos[todoList.todos.length - 1].todoText;
-		// todoText += todoList.todos[todoList.todos.length - 1].completed;
-		// var newLiText = document.createTextNode(todoText);
-		// newLi.appendChild(newLiText);	
+			if (todo.completed === true) {
+				todoTextWithCompletion = '(x) ' + todo.todoText;
+			}
+			else {
+				todoTextWithCompletion = '( ) ' + todo.todoText;
+			}
+
+			todoLi.textContent = todoTextWithCompletion;
+			todosUl.appendChild(todoLi);
+		}	
 	}
 };
 
