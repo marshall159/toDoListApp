@@ -59,4 +59,5 @@ To-do app created following course material from Watch and Code
 * Clicking delete should update todoList.todos and the DOM
 
 ## v11 Requirements:
-
+* todoList.toggleAll should use forEach
+* view.displayTodos should use forEach
