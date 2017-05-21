@@ -1,19 +1,3 @@
-// It should store the todos array on an object
-// It should have a display Todos method
-// It should have an addTodo method
-// It should have a changeTodo method
-// It should have a deleteTodo method
-
-// todoList.addTodo should add objects
-// todoList.changeTodo should change the todoText property
-// todoList.toggleCompleted should change the completed property
-
-// .displayTodos should show .todoText
-// .displayTodos should tell you if .todos is empty
-// .displayTodos should show .completed
-
-// .toggleAll: If everything is true, make everything false
-// .toggleAll: Otherwise, make everything true
 
 var todoList = {
 	todos: [],
@@ -37,7 +21,6 @@ var todoList = {
 		var totalTodos = this.todos.length;
 		var completedTodos = 0;
 
-		//Get number of completed todos
 		for (var i = 0; i < totalTodos; i++) {
   			if (this.todos[i].completed === true) {
   				completedTodos++;
@@ -60,20 +43,6 @@ var todoList = {
 	}
 };
 
-// There should be a 'Display todos' button and a 'Toggle all' button in the app
-// Clicking 'Display todos' should run todoList.displayTodos
-// Clicking 'Toggle all' should run todoList.toggleAll
-
-// var displayTodosButton = document.getElementById('displayTodosButton');
-// var toggleAllButton = document.getElementById('toggleAllButton');
-
-// displayTodosButton.addEventListener('click', function() {
-// 	todoList.displayTodos();
-// });
-
-// toggleAllButton.addEventListener('click', function() {
-// 	todoList.toggleAll();
-// })
 
 var handlers = {
 	addTodo: function() {
@@ -109,10 +78,6 @@ var handlers = {
 		view.displayTodos();
 	}
 };
-
-//There should be an li element for every todo
-//Each li element should contain .todoText
-//Each li element should show .completed
 
 
 var view = {
